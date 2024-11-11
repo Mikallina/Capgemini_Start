@@ -1,1 +1,35 @@
-# Capgemini_Start
+# Capgemini Start
+
+## MÓDULOS 
+
+### MÓDULO I, II E III
+> Fundamentos de HTML5
+> Currículo criado a partir dos conceitos
+
+### FUNDAMENTOS EM CSS
+
+### JAVASCRIPT E JQUERY
+
+### ANGULAR
+
+### CRIANDO APIS COM ANGULAR
+
+### JAVA FUNDAMENTOS
+
+### LINGUAGEM DE PROGRAMAÇÃO EM JAVA
+
+### JAVA - WEB
+
+### HTML AVANÇADO
+
+### CSS AVANÇADO
+
+## LINGUAGENS UTILIZADAS
+- HTML
+- CSS
+- ANGULAR
+- JAVA
+
+## FRAMEWORK
+
+- Vs Code
