@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operadores Condicionais</title>
+
+    <script>
+      //Operador &&  "E"
+      var nota = 4;
+      if (nota >= 6) {
+        window.alert("Aprovado");
+      }
+      if (nota >= 4 && nota < 5.9) {
+        window.alert("Recuperação");
+      } else {
+        window.alert("Reprovado na matéria");
+      }
+
+      //Operador || OU
+      var trabalho1 = 7;
+      var trabalho2 = 5;
+      if (trabalho1 > 7 || trabalho2 > 7) {
+        alert("Aprovado");
+      } else {
+        alert("Reprovado");
+      }
+
+      //Operador ! (Não)
+      var trabalho3 = true;
+      if (!trabalho3 == true) {
+        alert("Você trabalha");
+      } else {
+        alert("Você não trabalha");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

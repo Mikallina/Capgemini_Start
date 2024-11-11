@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos</title>
+    <script>
+      function mensagem() {
+        alert("Você clicou no botão");
+      }
+
+      function mensagemAlterada() {
+        //Obter um curso selecionado
+        var curso = document.getElementById("cursos").value;
+        alert(curso);
+      }
+
+      function mensagemInicial() {
+        alert("Seja bem vindo");
+      }
+
+      /*
+        onKeuUp: Exibe os caracteres e depois a ação
+        onKeyDown: Executa a ção e depois exibe os caracteres
+        onKeyPress: Executa a ção e depois exibe os caracteres (Não possui suporte para F1..F12, CTRL,SHIFT,DEL...)
+      */
+
+      function exibir() {
+        var campo = document.getElementById("campo").value;
+        alert(campo);
+      }
+      function exibirDown() {
+        var campo1 = document.getElementById("campo1").value;
+        alert(campo1);
+      }
+    </script>
+  </head>
+  <body onload="mensagemInicial()">
+    <h2>Evento de Clique</h2>
+    <button onclick="mensagem()">Clique Aqui</button>
+    <h2>Evento de Alteração</h2>
+    <select name="" id="cursos" onchange="mensagemAlterada()">
+      <option>Escolha seu curso</option>
+      <option>Java</option>
+      <option>Python</option>
+      <option>PHP</option>
+    </select>
+    <h2>Evento de Carregamento</h2>
+    <h3>Aparece o pop-up antes de carregar a página</h3>
+
+    <h2>Evento de Teclado</h2>
+    <h3>onKeyUp</h3>
+    <input type="text" id="campo" onkeyup="exibir()" />
+    <h3>onKeyDown</h3>
+    <input type="text" id="campo1" onkeydown="exibirDown()" />
+  </body>
+  <section></section>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vetores</title>
+    <script>
+      var nomes = ["Michelle", "Daniela", "Vera", "Odair"];
+      alert(nomes[0]);
+
+      //Array de Objetos
+      var cursos = [
+        { nome: "HTML", carga: 20, sala: 2 },
+        { nome: "CSS", carga: 50, sala: 3 },
+        { nome: "Java", carga: 10, sala: 1 },
+      ];
+      alert(
+        "Mostrando a opção escolhida: " + cursos[1].nome + " " + cursos[1].carga
+      );
+
+      //Mostrando todos os cursos
+      for (let i = 0; i < cursos.length; i++) {
+        const curso = cursos[i];
+        alert(
+          "Mostrando Todos: " +
+            curso.nome +
+            " " +
+            curso.carga +
+            " " +
+            curso.sala
+        );
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funções</title>
+    <script>
+      //Contando Palavras
+
+      function contandoPalavras() {
+        var termo = "Michelle do Carmo Borges";
+        // Divida o termo em palavras, usando o espaço como separador, e calcule o comprimento do array resultante
+        var palavras = termo.length;
+        // Exibe o número de palavras na página
+        document.querySelector(".palavras").innerHTML =
+          termo + " = Número de carateres: " + palavras;
+      }
+      //alert(termo.length);
+
+      //Maíusculas e Minúsculas
+      //var nome = "michelle do carmo borges";
+      // alert("Maiusculas: " + nome.toUpperCase());
+      // alert("Minusculas: " + nome.toLowerCase());
+
+      function localizando() {
+        var nome = "Michelle do Carmo Borges";
+        var primeiraLetra = nome.indexOf("e");
+        var ultimaLetra = nome.lastIndexOf("e");
+        document.querySelector(".primeiraLetra").innerHTML =
+          "Primeira letra 'e' encontrada na posição: " + primeiraLetra;
+        document.querySelector(".ultimaLetra").innerHTML =
+          "Ultima letra 'e' encontrada na posição: " + ultimaLetra;
+      }
+      //Localizando letras
+      // alert("Localizando a primeira letra (e) nome: " + nome.indexOf("e"));
+      // alert("Localizando a ultma letra (e) nome: " + nome.lastIndexOf("e"));
+
+      //Extrair elementos
+      // alert("Extraindo o nome: " + nome.slice(9));
+      // alert("Extraindo o nome Onde começa e onde termina: " + nome.slice(9, 17));
+
+      //Arredondando Valores
+      var nota = 7.9;
+      // alert("Arredondando Valores: " + Math.round(nota));
+
+      //Minimo e Máximo
+      // alert("Obter o menor número: " + Math.min(-15, 2, 5, 8, -2));
+      // alert("Obter o maior número: " + Math.max(-15, 2, 5, 8, -2));
+
+      //Números Aleatórios
+      var numero = Math.random(100) * 100;
+      // aler("Numeros aleatórios inteiros: " + Math.round(numero));
+
+      //CRIANDO Novas Funções
+      function soma(num1, num2) {
+        return num1 + num2;
+      }
+      alert("Soma: " + soma(10, 12));
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Funções</h1>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li>Contando Palavras</li>
+          <li>Maiúsculas</li>
+          <li>Minúsculas</li>
+        </ul>
+      </nav>
+    </section>
+    <section>
+      <h2>Contando Palavras</h2>
+      <button onclick="contandoPalavras()">Contador de Caracteres</button>
+      <h2 class="palavras"></h2>
+    </section>
+    <section>
+      <h2>Localizando Letras'</h2>
+      <button onclick="localizando()">Localizar Letras</button>
+      <h2 class="primeiraLetra"></h2>
+      <h2 class="ultimaLetra"></h2>
+    </section>
+  </body>
+</html>

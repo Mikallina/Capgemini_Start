@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletor HTML</title>
+    <script>
+      function acao() {
+        var texto = document.getElementsByTagName("h3")[1];
+        alert(texto.innerHTML);
+      }
+
+      function exibirTexto() {
+        var campo = document.getElementsByClassName("texto")[0];
+        alert(campo.innerHTML);
+      }
+
+      function exibirConteudo() {
+        var campo2 = document.getElementById("campo2");
+        alert(campo2.value);
+
+        campo2.value = "";
+      }
+
+      var linkAlterado = false; // Variável para controlar o estado do link
+
+      function alterarLink() {
+        var link = document.getElementsByTagName("a")[0];
+        var alterarBotao = document.getElementById("alterandoBotao");
+
+        if (!linkAlterado) {
+          // Alterar o link e o texto do botão
+          link.href = "http://www.google.com.br";
+          alterarBotao.innerHTML = "Link Google";
+          linkAlterado = true; // Atualizar o estado para "alterado"
+        } else {
+          // Voltar ao estado original
+          link.href = "http://www.example.com"; // Altere para o link original
+          alterarBotao.innerHTML = "Link Exemple";
+          linkAlterado = false; // Atualizar o estado para "original"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Seletor de Contúdo por HTML</h2>
+    <button onclick="acao()">Selecionar</button>
+    <h3>Proway</h3>
+    <h3>Seletores JS</h3>
+    <h3>Cursos Proway</h3>
+    <h2>Seletor de Conteúdo por Classes</h2>
+    <button onclick="exibirTexto()">Clique Aqui</button>
+    <h3 class="texto">Título numero 1</h3>
+    <h3 class="texto">Título numero 2</h3>
+    <h3 class="texto">Título numero 3</h3>
+    <h2>Seletor de Conteúdo por ID</h2>
+    <input type="text" id="campo2" />
+    <button onclick="exibirConteudo()">Clique Aqui</button>
+
+    <h2>Alterando Conteúdo JavaScript e CSS</h2>
+    <h4>Michelle</h4>
+    <button onclick="acao()">Clique para Alterar</button>
+    <h2>Atributos</h2>
+    <a href="http://www.amazon.com">Clique Aqui</a>
+    <button onclick="alterarLink()" id="alterandoBotao">
+      Clique para Alterar
+    </button>
+  </body>
+</html>

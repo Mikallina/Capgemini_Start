@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+a {
+    border: 1px solid rgb(202, 77, 77);
+    padding: 10px;
+    margin: 5px;
+}
+
+h4 {
+    text-align: center;
+}
