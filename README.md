@@ -3,12 +3,22 @@
 ## MÓDULOS 
 
 ### MÓDULO I, II E III
-> Fundamentos de HTML5
-> Currículo criado a partir dos conceitos
+> Currículo criado a partir dos conceitos de html
 
 ### FUNDAMENTOS EM CSS
+> Currículo estilizado com os conceitos de css
 
 ### JAVASCRIPT E JQUERY
+> Alerta de Mensagens
+> Variavéis
+> Condicionais Simples e Aninhadas
+> Operações Condicionais
+> Estrutura de escolha
+> Laço de Repetição
+> Vetor
+> Funções
+> Eventos
+> Seletores de Conteúdos
 
 ### ANGULAR
 
@@ -30,6 +40,5 @@
 - ANGULAR
 - JAVA
 
-## FRAMEWORK
-
+## FERRAMENTAS DE DESENVOLVIMENTO
 - Vs Code
