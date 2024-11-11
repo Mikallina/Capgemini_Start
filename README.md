@@ -9,16 +9,16 @@
 > Currículo estilizado com os conceitos de css
 
 ### JAVASCRIPT E JQUERY
-> Alerta de Mensagens
-> Variavéis
-> Condicionais Simples e Aninhadas
-> Operações Condicionais
-> Estrutura de escolha
-> Laço de Repetição
-> Vetor
-> Funções
-> Eventos
-> Seletores de Conteúdos
+- Alerta de Mensagens
+- Variavéis
+- Condicionais Simples e Aninhadas
+- Operações Condicionais
+- Estrutura de escolha
+- Laço de Repetição
+- Vetor
+- Funções
+- Eventos
+- Seletores de Conteúdos
 
 ### ANGULAR
 
