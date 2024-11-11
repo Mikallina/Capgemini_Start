@@ -2,11 +2,11 @@
 
 ## MÓDULOS 
 
-### MÓDULO I, II E III
-> Currículo criado a partir dos conceitos de html
+### MÓDULO I, II E III DE HTML5
+> Currículo criado a partir dos conceitos de HTML5
 
 ### FUNDAMENTOS EM CSS
-> Currículo estilizado com os conceitos de css
+> Currículo estilizado com os conceitos de CSS
 
 ### JAVASCRIPT E JQUERY
 - Alerta de Mensagens
@@ -40,5 +40,5 @@
 - ANGULAR
 - JAVA
 
-## FERRAMENTAS DE DESENVOLVIMENTO
+## FERRAMENTA DE DESENVOLVIMENTO
 - Vs Code
